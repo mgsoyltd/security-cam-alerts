@@ -10,7 +10,7 @@ The mail and detect services must be running prior to starting this cams service
 
 This is a python mail server that only receives surveillance camera alert e-mails from the local network and stores the attached snapshot images to a sqlite3 database. It is also using AI people detection to create a shorter list of snapshots that may include people onto a separate table in the same database.
 
-The **cams** web service can be used to review and administrate the alerts in the database.
+The **cams** web service is used to review and administrate the alerts in the database.
 
 Library smtpd — SMTP Server is used to build the inbound SMTP server to receive alert e-mails sent by ssecurity cameras in the local network only.
 
