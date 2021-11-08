@@ -1,0 +1,5 @@
+.venv/
+.env
+.vscode/
+db/db.sqlite3
+static/
