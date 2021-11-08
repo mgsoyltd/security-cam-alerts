@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','192.168.1.68']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','192.168.1.100']
 
 
 # Application definition
@@ -82,11 +82,11 @@ DATABASES = {
     },
         'alerts': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/home/eki/db/alerts.sqlite3',
+        'NAME': '/home/<user>/db/alerts.sqlite3',
     },
         'detects': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/home/eki/db/alerts.sqlite3',
+        'NAME': '/home/<user>/db/alerts.sqlite3',
     }
 }
 
