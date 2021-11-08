@@ -11,7 +11,7 @@ from decouple import config
 
 
 URL = config('URL')
-PORT = config('PORT')
+PORT = config('PORT', cast=int)
 DEST_DIR = config('DEST_DIR')
 
 

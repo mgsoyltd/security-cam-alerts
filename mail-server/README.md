@@ -58,11 +58,12 @@ Maintain environment variables in the .env file
 ```
 # serve.py variables for mail server IP address, port and folder to store message attacments 
 URL = '<mail_server_ip>'
-PORT = 1025
+PORT = '1025'
 DEST_DIR = '<project_folder>/mail-server/email/msgfiles'
 
 # store.py variable for the shared database file (shared with cams server)
-DATABASE = "/home/<user>/db/alerts.sqlite3"
+DATABASE = '/home/<user>/db/alerts.sqlite3'
+LOG_ACTIVE = 'True'
 ```
 
 # Mail Service

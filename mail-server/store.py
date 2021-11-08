@@ -8,7 +8,7 @@ from detect import detect_people
 from pathlib import PosixPath
 from decouple import config
 
-LOG_ACTIVE = True
+LOG_ACTIVE = config('LOG_ACTIVE', cast=bool)
 DATABASE = config('DATABASE')
 
 class StoreData:
