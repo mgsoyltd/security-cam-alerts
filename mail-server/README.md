@@ -4,11 +4,11 @@ This is a python mail server that only receives surveillance camera alert e-mail
 
 The **cams** web service can be used to review and administrate the alerts in the database.
 
-Library smtpd — SMTP Server is used to build the inbound SMTP server to receive alert e-mails sent by ssecurity cameras in the local network only.
+Library smtpd — SMTP Server is used to build the inbound SMTP server to receive alert e-mails sent by security cameras in the local network only.
 
 # Detect Server
 
-This is a server that will use Artificial intelligence (AI) to detect people with computer vision in the security camera alert images and store such images into another table in the aqlite3 database.
+This is a server that will use Artificial intelligence (AI) to detect people with computer vision in the security camera alert images and store such images into another table in the sqlite3 database.
 
 The **cams** web service is used to review and administrate the alerts in the database.
 
